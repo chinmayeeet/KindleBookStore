@@ -21,7 +21,7 @@ namespace Cart
 
                 context.Book.AddRange(
 
-                                        new Book
+                                        new DB.Book
                                         {
                                             Title = "Book 1",
                                             //Slug = "book-1",
@@ -30,7 +30,7 @@ namespace Cart
                                             //Category = books,
                                             Image = "book.jpg"
                                         },
-                                        new Book
+                                        new DB.Book
                                         {
                                             Title = "Book 2",
                                             //Slug = "book-2",
@@ -39,7 +39,7 @@ namespace Cart
                                             //Category = books,
                                             Image = "book.jpg"
                                         },
-                                        new Book
+                                        new DB.Book
                                         {
                                             Title = "Book 3",
                                             //Slug = "book-3",
@@ -48,7 +48,7 @@ namespace Cart
                                             //Category = books,
                                             Image = "book.jpg"
                                         },
-                                        new Book
+                                        new DB.Book
                                         {
                                             Title = "Book 4",
                                             //Slug = "book-4",
