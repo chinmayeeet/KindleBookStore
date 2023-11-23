@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BL", "BL", "{C953A500-F65F-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB", "DB\DB.csproj", "{92D93F87-C644-4437-8D63-455C5A27516E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cart", "Cart\Cart.csproj", "{ABCC8781-493E-48C7-B046-7D18C1D10AB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{92D93F87-C644-4437-8D63-455C5A27516E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92D93F87-C644-4437-8D63-455C5A27516E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92D93F87-C644-4437-8D63-455C5A27516E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCC8781-493E-48C7-B046-7D18C1D10AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCC8781-493E-48C7-B046-7D18C1D10AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCC8781-493E-48C7-B046-7D18C1D10AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCC8781-493E-48C7-B046-7D18C1D10AB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{92D93F87-C644-4437-8D63-455C5A27516E} = {9DB47153-44F3-486F-8EC0-9046AF8EDDD8}
+		{ABCC8781-493E-48C7-B046-7D18C1D10AB7} = {C953A500-F65F-4826-B8CF-D2763BCA1EE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5280D35D-E0CC-4E05-AC02-B257C7394D67}

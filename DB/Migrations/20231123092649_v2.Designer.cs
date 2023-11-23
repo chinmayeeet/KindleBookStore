@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DB.Migrations
 {
     [DbContext(typeof(BookDbContext))]
-    [Migration("20231123083015_v1")]
-    partial class v1
+    [Migration("20231123092649_v2")]
+    partial class v2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -68,6 +68,28 @@ namespace DB.Migrations
                     b.HasKey("BookId");
 
                     b.ToTable("Book");
+                });
+
+            modelBuilder.Entity("DB.CartItem", b =>
+                {
+                    b.Property<long>("BookId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("BookName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<float>("Price")
+                        .HasColumnType("real");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.ToTable("Cart");
                 });
 
             modelBuilder.Entity("DB.Category", b =>

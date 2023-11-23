@@ -5,11 +5,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 using System;
+using Microsoft.AspNetCore.Http;
+using Microsoft.VisualStudio.TestPlatform.ObjectModel;
 
 namespace DB
 {
 
-    public class BookDal
+    public class Book
     {
         [Key]
         public int BookId { get; set; }
@@ -34,12 +36,28 @@ namespace DB
         public int CategoryId { get; set; }
         public string Image { get; set; } = "noimage.png";
 
-        //[NotMapped]
-        //[FileExtension]
-        //public IFormFile ImageUpload { get; set; }
+        [NotMapped]
+        [FileExtensions]
+        public IFormFile ImageUpload { get; set; }
     }
-    public class CartItem
+    [Keyless]
+    public class CartItem  
     {
+        
+        public CartItem()
+        {
+            
+        }
+        public CartItem(Book book)
+        {
+            BookId = book.BookId;
+            BookName = book.Title;
+            Price = book.Price;
+            Quantity = 1;
+            Image = book.Image;
+        }
+
+        
         public long BookId { get; set; }
         public string BookName { get; set; }
         public int Quantity { get; set; }
@@ -52,14 +70,7 @@ namespace DB
 
 
 
-        public CartItem(BookDal book)
-        {
-            BookId = book.BookId;
-            BookName = book.Title;
-            Price = book.Price;
-            Quantity = 1;
-            Image = book.Image;
-        }
+        
 
 
     }
@@ -94,17 +105,17 @@ namespace DB
 
     public class BookDbContext : DbContext
     {
-        public DbSet<BookDal> Book{ get; set; }
+        public DbSet<Book>Book{ get; set; }
 
-        public DbSet<User> User { get; set; }
+        public DbSet<User>User { get; set; }
 
-        //public DbSet<CartItem> Cart(BookDal) { get; set; }
+        public DbSet<CartItem> Cart { get; set; }
         public DbSet<Category> Category { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=EmployeeDb;Trusted_Connection=true");
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=BookStore;Trusted_Connection=true");
         }
     }
 }
