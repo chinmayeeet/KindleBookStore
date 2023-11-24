@@ -40,7 +40,6 @@ namespace DB
         [FileExtensions]
         public IFormFile ImageUpload { get; set; }
     }
-    [Keyless]
     public class CartItem  
     {
         
@@ -51,15 +50,16 @@ namespace DB
         public CartItem(Book book)
         {
             BookId = book.BookId;
-            BookName = book.Title;
+             BookTitle = book.Title;
             Price = book.Price;
             Quantity = 1;
             Image = book.Image;
         }
-
-        
+        [Key]
+        public int CartId { get; set; }
+        public int UserId { get; set; }
         public long BookId { get; set; }
-        public string BookName { get; set; }
+        public string BookTitle { get; set; }
         public int Quantity { get; set; }
         public float Price { get; set; }
         public float Total
@@ -68,17 +68,12 @@ namespace DB
         }
         public string Image { get; set; }
 
-
-
-        
-
-
     }
     public class Category
     {
-        public long Id { get; set; }
-        public string Name { get; set; }
-        public string Slug { get; set; }
+        public long CId { get; set; }
+        public string CName { get; set; }
+        public string CSlug { get; set; }
     }
 
     /*public class ErrorViewModel
@@ -90,7 +85,8 @@ namespace DB
 
     public class User
     {
-        public string Id { get; set; }
+        [Key]
+        public int UserId { get; set; }
 
         [Required, MinLength(2, ErrorMessage = "Minimum length is 2")]
         [Display(Name = "Username")]
@@ -109,7 +105,7 @@ namespace DB
 
         public DbSet<User>Users { get; set; }
 
-        public DbSet<CartItem> Cart { get; set; }
+        public DbSet<CartItem> Carts { get; set; }
         public DbSet<Category> Categories { get; set; }
 
 

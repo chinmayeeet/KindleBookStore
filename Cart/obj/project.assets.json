@@ -2267,9 +2267,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\KindleBookStore\\Cart\\Cart.csproj",
-      "projectName": "Cart",
-      "projectPath": "C:\\Projects\\KindleBookStore\\Cart\\Cart.csproj",
+      "projectUniqueName": "C:\\Projects\\KindleBookStore\\Cart\\Crud.csproj",
+      "projectName": "Crud",
+      "projectPath": "C:\\Projects\\KindleBookStore\\Cart\\Crud.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Projects\\KindleBookStore\\Cart\\obj\\",
       "projectStyle": "PackageReference",

@@ -15,11 +15,11 @@ namespace Cart
         {
             context.Database.Migrate();
 
-            if (!context.Book.Any())
+            if (!context.Books.Any())
             {
-                Category books = new Category { Name = "Books", Slug = "books" };
+                Category books = new Category { CName = "Books", CSlug = "books" };
 
-                context.Book.AddRange(
+                context.Books.AddRange(
 
                                         new DB.Book
                                         {
