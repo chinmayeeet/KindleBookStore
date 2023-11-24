@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k47EmpkD0MFacuceS74VP3sU3k4QTI+mkEeIxVTRFv4Xb51IF1u39tZeQpyGb9a0GCylT4PfqtijFwNlwME4oQ==",
+  "dgSpecHash": "o5JAZ+i67tQ83Zbf28mkqpeWyVUrpmdEkHbkPFYLEEhKdII4W2yunl88jG5wZtn7+VgW3Z+q48Yp+DFmqHmobw==",
   "success": false,
-  "projectFilePath": "C:\\Projects\\KindleBookStore\\BStorePL\\BStorePL.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Downloads\\Repo\\BStorePL\\BStorePL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.23\\microsoft.aspnetcore.cryptography.internal.6.0.23.nupkg.sha512",

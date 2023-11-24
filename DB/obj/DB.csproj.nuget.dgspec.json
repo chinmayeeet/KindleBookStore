@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\KindleBookStore\\DB\\DB.csproj": {}
+    "C:\\Users\\Administrator\\Downloads\\Repo\\DB\\DB.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\KindleBookStore\\DB\\DB.csproj": {
+    "C:\\Users\\Administrator\\Downloads\\Repo\\DB\\DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\KindleBookStore\\DB\\DB.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Downloads\\Repo\\DB\\DB.csproj",
         "projectName": "DB",
-        "projectPath": "C:\\Projects\\KindleBookStore\\DB\\DB.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Downloads\\Repo\\DB\\DB.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\KindleBookStore\\DB\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Downloads\\Repo\\DB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

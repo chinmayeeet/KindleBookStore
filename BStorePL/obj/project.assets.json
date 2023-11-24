@@ -2919,11 +2919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\KindleBookStore\\BStorePL\\BStorePL.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Downloads\\Repo\\BStorePL\\BStorePL.csproj",
       "projectName": "BStorePL",
-      "projectPath": "C:\\Projects\\KindleBookStore\\BStorePL\\BStorePL.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Downloads\\Repo\\BStorePL\\BStorePL.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\KindleBookStore\\BStorePL\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Downloads\\Repo\\BStorePL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2945,8 +2945,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\KindleBookStore\\Cart\\Crud.csproj": {
-              "projectPath": "C:\\Projects\\KindleBookStore\\Cart\\Crud.csproj"
+            "C:\\Users\\Administrator\\Downloads\\Repo\\Cart\\Crud.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Downloads\\Repo\\Cart\\Crud.csproj"
             }
           }
         }
