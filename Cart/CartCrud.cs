@@ -12,7 +12,7 @@ namespace Crud
     {
         static BookDbContext dbContext = new BookDbContext();
 
-        public List<DB.CartItem> GetCartItems()
+        public static List<DB.CartItem> GetCartItems()
         {
 
             return dbContext.Carts.ToList();

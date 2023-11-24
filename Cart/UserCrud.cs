@@ -11,7 +11,7 @@ namespace Crud
     {
         static BookDbContext dbContext = new BookDbContext();
 
-        public List<DB.User> GetUsers()
+        public static List<DB.User> GetUsers()
         {
 
             return dbContext.Users.ToList();

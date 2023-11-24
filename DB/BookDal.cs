@@ -58,7 +58,7 @@ namespace DB
         [Key]
         public int CartId { get; set; }
         public int UserId { get; set; }
-        public long BookId { get; set; }
+        public int BookId { get; set; }
         public string BookTitle { get; set; }
         public int Quantity { get; set; }
         public float Price { get; set; }

@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BStorePL
 build_property.RootNamespace = BStorePL
-build_property.ProjectDir = C:\Users\Administrator\Downloads\Repo\BStorePL\
+build_property.ProjectDir = C:\Projects\KindleBookStore\BStorePL\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Administrator\Downloads\Repo\BStorePL
+build_property.MSBuildProjectDirectory = C:\Projects\KindleBookStore\BStorePL
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Administrator/Downloads/Repo/BStorePL/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Projects/KindleBookStore/BStorePL/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Downloads/Repo/BStorePL/Views/Home/Index.cshtml]
+[C:/Projects/KindleBookStore/BStorePL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Downloads/Repo/BStorePL/Views/Home/Privacy.cshtml]
+[C:/Projects/KindleBookStore/BStorePL/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Downloads/Repo/BStorePL/Views/Shared/Error.cshtml]
+[C:/Projects/KindleBookStore/BStorePL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Downloads/Repo/BStorePL/Views/Shared/_LoginPartial.cshtml]
+[C:/Projects/KindleBookStore/BStorePL/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Downloads/Repo/BStorePL/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Projects/KindleBookStore/BStorePL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Downloads/Repo/BStorePL/Views/_ViewImports.cshtml]
+[C:/Projects/KindleBookStore/BStorePL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Downloads/Repo/BStorePL/Views/_ViewStart.cshtml]
+[C:/Projects/KindleBookStore/BStorePL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Downloads/Repo/BStorePL/Views/Shared/_Layout.cshtml]
+[C:/Projects/KindleBookStore/BStorePL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bqv3ffp57s

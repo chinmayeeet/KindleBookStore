@@ -1,28 +1,45 @@
-﻿namespace BStorePL.Models
+﻿using Crud;
+using DB;
+using System;
+
+namespace BStorePL.Models
 {
-    public class CartModel
+    public class CartOp
     {
-        public long ProductId { get; set; }
-        public string ProductName { get; set; }
-        public int Quantity { get; set; }
-        public decimal Price { get; set; }
-        public decimal Total
-        {
-            get { return Quantity * Price; }
-        }
-        public string Image { get; set; }
+        //static List<CartItem> cartlist = new List<CartItem>();
 
-        public CartModel()
+        public static List<CartItem> GetCartItems()
         {
+            return CartCrud.GetCartItems();
         }
 
-        public CartModel(Product product)
+        public static void CreateNew(CartItem b)
         {
-            ProductId = product.Id;
-            ProductName = product.Name;
-            Price = product.Price;
-            Quantity = 1;
-            Image = product.Image;
+            var Cid = b.CartId;
+            var Uid = b.UserId;
+            var Bid = b.BookId;
+            var title = b.BookTitle;
+            var quantity = b.Quantity;
+            var price = b.Price;
+            string img = b.Image;
+
+            CartCrud.InsertCartItems(Cid, Uid, Bid, title, quantity, price, img);
+
         }
+
+
+
+        public static bool Delete(int Cid)
+        {
+            var found = CartCrud.GetCartItems().Where(b => b.CartId == Cid).FirstOrDefault();
+            if (found != null)
+            {
+                CartCrud.DeleteCartItems(Cid);
+                return true;
+            }
+            else
+                throw new Exception("Record does not exist");
+        }
+
     }
 }
